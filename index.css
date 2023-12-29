@@ -182,7 +182,7 @@ a{
 .link_img2{
     display: flex;
     justify-content: space-around;
-    margin: 5px;
+  
 }
 .link_img2 a{
     text-align: center; /* Центрирование содержимого внутри ссылки */
@@ -192,10 +192,14 @@ a{
 .link_img2 p {
     margin-top: 0px;
 } 
+
+.link_img2 p :hover{
+    background-color: greenyellow;
+}
 .link_img2 img{
-    width: 250px; /* Установите желаемую ширину картинок */
-    height: auto; /* Автоматическое вычисление высоты для сохранения пропорций */
-    margin: 5px;
+    width: 100%; 
+    height: auto; 
+    margin: 1px;
 }
 
 

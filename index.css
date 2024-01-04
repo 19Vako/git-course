@@ -7,6 +7,8 @@
 
 
 body {
+    background-attachment: fixed;
+    margin: 0;
     padding-left: 40px;
     padding-right: 40px;
     background-image: url(img/green-smoke-black-background_44272-4820.avif);

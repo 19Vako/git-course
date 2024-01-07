@@ -137,15 +137,11 @@ p{
 }
 
 
-
-video{
+.my-video-dimensions {
     width: 100%;
-    transition: filter 0.2s linear 0s;
-    min-height: auto;
-    max-height: none;
-    min-width: auto;
-    max-width: none;
+    height: 490px;
 }
+
 .video-buttons{
     display: flex;
     justify-content: center;

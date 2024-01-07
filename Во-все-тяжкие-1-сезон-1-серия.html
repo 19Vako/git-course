@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
-
+<link href="https://vjs.zencdn.net/8.9.0/video-js.css" rel="stylesheet" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-
+  
   <div class="head_img"><img src="img/pngegg.png" alt=""></div>
 
 
@@ -44,9 +44,6 @@
       <li><a href="Во-все-тяжкие-7-серия.html">7 Серия</a></li>
     </ul>
   </div>
-  
-
-
 
 
 
@@ -92,8 +89,31 @@
     </p>
     <br>
     <br>
-    <video controls playsinline><source src="https://github.com/19Vako/git-course/blob/bc5d0d89c023a5e54a01dad6fd52709e65bda5b3/video/1-%D0%A1%D0%B5%D1%80%D0%B8%D1%8F.mp4" type="video/mp4">
-    <br>
+
+    <video
+      id="my-video"
+      class="video-js"
+      controls
+      preload="auto"
+      width="640"
+      height="400"
+      poster="img/6196720d08055a244fdeaad54d2ca897.jpg"
+      data-setup="{}"
+  >
+    <source src="http://88.99.64.110/video/br-bad/s1-lostfilm/01.mp4" type="video/mp4" />
+    <source src="MY_VIDEO.webm" type="video/webm" />
+
+      <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+      </p>
+    </video>
+
+  <script src="https://vjs.zencdn.net/8.9.0/video.min.js"></script>
+
+
+
+
+
     <div class="video-buttons">
       <div class="next-button"><a href="Во-все-тяжкие-2-серия.html">🇨​л🇪​д🇾​ющ🇦​я 🇨​🇪​🇵​ия</a></div>
     </div>

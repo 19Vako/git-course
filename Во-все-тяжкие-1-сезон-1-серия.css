@@ -76,8 +76,18 @@ p{
   
 }
 
+.video-player{
+    position: relative; 
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
 
-
+.video{
+    position: absolute; 
+    width: 100%; 
+    height: 100%;
+}
 
 
 
@@ -137,10 +147,7 @@ p{
 }
 
 
-.my-video-dimensions {
-    width: 100%;
-    height: 490px;
-}
+
 
 .video-buttons{
     display: flex;
